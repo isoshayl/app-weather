@@ -1,3 +1,11 @@
+.app-weather{
+  max-width: 600px;
+  margin: 30 auto;
+  padding: 20px;
+  border: 5px solid #453853;
+  border-radius: 5px;
+}
+
 body {
   font-family: "IBM Plex Mono", monospace;
   background: linear-gradient(to top, #09203f 0%, #537895 100%);
@@ -8,10 +16,11 @@ body {
   );
 }
 h1 {
+  text-align: center;
   font-size: 20px;
   color: #453953;
   position: relative;
-  left: -80px;
+  left: 18px;
   background: linear-gradient(
     180.3deg,
     rgb(221, 221, 221) 5.5%,
@@ -65,7 +74,7 @@ hr {
 
 .card {
   position: relative;
-  left: 350px;
+  left: 285px;
   top: 50px;
   border-radius: 8px;
   border: 1px solid #453953;
@@ -103,7 +112,7 @@ hr {
 
 .fa-caret-up {
   text-align: center;
-  color: red;
+  color:red;
   position: relative;
   bottom: 60px;
   left: 37px;
@@ -162,3 +171,4 @@ hr {
 #fahrenheit-link {
   text-decoration: none;
 }
+ 
